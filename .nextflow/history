@@ -1,0 +1,16 @@
+2025-01-09 21:57:23	-	spontaneous_mccarthy	-	e3d6401e4a07f79cc27562337b2cdc22	24abc523-d96f-49a6-87a1-fe01bb3a949b	nextflow run ./modules/local/FastQC/main.nf
+2025-01-09 21:59:25	-	adoring_marconi	-	894e736769377f6bd85ea0e53f592d45	010d43ed-281f-4398-8a54-0d5efc8dd189	nextflow run main.nf
+2025-01-09 21:59:41	-	elated_yalow	-	894e736769377f6bd85ea0e53f592d45	9911d32e-29fd-4e9d-8466-720998f5cc4d	nextflow run main.nf
+2025-01-09 22:11:46	-	golden_roentgen	-	9e30652719f7c87e4c759af96b8d6212	0ae24759-7717-4a43-ba2e-05e48beb46b7	nextflow run ./main.nf
+2025-01-09 22:12:35	-	sad_cori	-	9e30652719f7c87e4c759af96b8d6212	a111f392-e5ba-4a1c-a2dc-02371bb32238	nextflow run ./main.nf
+2025-01-09 22:13:23	-	pedantic_hopper	-	9e30652719f7c87e4c759af96b8d6212	4cca5d2c-9b73-4ce1-b2fb-766b0e21e4c4	nextflow run ./main.nf
+2025-01-09 22:16:02	-	distraught_sanger	-	2d4f012424da67192cd6491b80b613ee	1a99d967-66f2-4344-90e5-b9970f1ab26c	nextflow run main.nf
+2025-01-09 22:16:58	-	suspicious_einstein	-	1c66ad68a1bdf7c2021f96e7c71e8809	34032418-1b13-4ca7-aa4b-88cc612eca0d	nextflow run main.nf
+2025-01-09 22:17:23	-	evil_jang	-	3b1dbe993289a28ccb0582184566d8ae	4bbe3b1f-87e5-4444-8812-ce89c055d591	nextflow run main.nf
+2025-01-09 22:18:01	-	intergalactic_thompson	-	a909cd7bcc6f8082e6046f0047659b6a	11678072-d931-4b0f-8e2d-e6af4317098d	nextflow run main.nf
+2025-01-09 22:20:07	-	cheeky_saha	-	6ccb8cd8cda4888389e605c685761573	620755ac-902e-46b7-81c6-0aac5fbd41cf	nextflow run main.nf
+2025-01-09 22:20:51	-	ridiculous_brazil	-	4f571190a833c1620dbbe826f373ba48	3bca96bf-9b17-43ba-98c3-188930dd3877	nextflow run main.nf
+2025-01-09 22:21:44	-	confident_goodall	-	01571ad1b508c70e0f3799fb1b2d5f84	240e62d5-e778-4bec-86ee-1f1e980618ee	nextflow run main.nf
+2025-01-09 22:22:22	-	zen_noyce	-	6050d743fc1b39c051518cfbbb23a8c3	2a8d5db2-b2c2-44cc-bd13-4e401cb44b6e	nextflow run main.nf
+2025-01-09 22:23:06	-	loquacious_bardeen	-	6050d743fc1b39c051518cfbbb23a8c3	cc61cad6-09d4-48a3-a9cd-2de71359e870	nextflow run main.nf
+2025-01-09 22:23:39	-	big_sanger	-	6050d743fc1b39c051518cfbbb23a8c3	bb77c4cd-7a5d-40b8-b9ad-cd9096f37b57	nextflow run main.nf

@@ -3,31 +3,21 @@
 /*
  * Call variants with GATK HaplotypeCaller
  */
-process GATK_HAPLOTYPECALLER {
 
-    container "community.wave.seqera.io/library/gatk4:4.5.0.0--730ee8817e436867"
-    conda "bioconda::gatk4=4.5.0.0"
+process runFastQC {
 
-    publishDir params.outdir, mode: 'symlink'
+    container "community.wave.seqera.io/library/fastqc:0.12.1--af7a5314d5015c29"
 
     input:
-        tuple path(input_bam), path(input_bam_index)
-        path ref_fasta
-        path ref_index
-        path ref_dict
-        path interval_list
+	path input_fastq
 
     output:
-        path "${input_bam}.g.vcf"     , emit: vcf
-        path "${input_bam}.g.vcf.idx" , emit: idx
+	path *.txt
+	path *.html
 
     script:
     """
-    gatk HaplotypeCaller \
-        -R ${ref_fasta} \
-        -I ${input_bam} \
-        -O ${input_bam}.g.vcf \
-        -L ${interval_list} \
-        -ERC GVCF
+    echo $input_fastq
+    fastqc $input_fastq
     """
 }
